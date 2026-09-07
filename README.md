@@ -43,9 +43,6 @@ readme-gen path/to/project --force
 # Write somewhere other than <path>/README.md
 readme-gen path/to/project -o docs/README.md
 ```
-
-The generated file is a starting point, not a finished product — it fills in placeholders (marked `TODO` or in italics) for anything it can't infer, like a project description or a missing license.
-
 ## Project Structure
 
 ```
@@ -81,6 +78,3 @@ CI runs the same suite on Python 3.10–3.12 via GitHub Actions on every push an
 
 Contributions welcome — especially more manifest formats and language detectors.
 
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
